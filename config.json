@@ -1,0 +1,60 @@
+{
+  "version": "1.0.0",
+  "name": "openclaw-finance-news",
+  "description": "实时获取最新财经新闻、市场动态、公司公告、行业资讯等",
+  "author": "zhaokera",
+  "sources": {
+    "sina_finance": {
+      "base_url": "https://finance.sina.com.cn",
+      "enabled": true,
+      "timeout": 10,
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+    },
+    "eastmoney": {
+      "base_url": "https://www.eastmoney.com",
+      "enabled": true,
+      "timeout": 10,
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+    },
+    "yuncaijing": {
+      "base_url": "https://www.yuncaijing.com",
+      "enabled": true,
+      "timeout": 10,
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+    },
+    "cls": {
+      "base_url": "https://www.cls.cn",
+      "enabled": true,
+      "timeout": 10,
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+    },
+    "sse": {
+      "base_url": "http://www.sse.com.cn",
+      "enabled": true,
+      "timeout": 10,
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+    }
+  },
+  "cache": {
+    "enabled": true,
+    "ttl_minutes": 5,
+    "max_size_mb": 100
+  },
+  "limits": {
+    "default_news_limit": 20,
+    "max_news_limit": 50,
+    "min_news_limit": 1
+  },
+  "categories": [
+    "all",
+    "market",
+    "company",
+    "macro",
+    "industry",
+    "international",
+    "policy",
+    "technology",
+    "finance",
+    "property"
+  ]
+}
