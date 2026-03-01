@@ -1,7 +1,7 @@
 {
-  "version": "1.0.0",
+  "version": "2.0.0",
   "name": "openclaw-finance-news",
-  "description": "实时获取最新财经新闻、市场动态、公司公告、行业资讯等",
+  "description": "实时获取最新财经新闻、市场动态、公司公告、行业资讯等，基于邱国鹭《投资中最简单的事》和李杰《股市进阶之道》投资理念优化",
   "author": "zhaokera",
   "sources": {
     "sina_finance": {
@@ -56,5 +56,26 @@
     "technology",
     "finance",
     "property"
-  ]
+  ],
+  "investment_analysis": {
+    "enabled": true,
+    "frameworks": {
+      "qiu_guolu": {
+        "name": "邱国鹭四要素",
+        "elements": ["估值", "品质", "时机", "仓位"]
+      },
+      "li_jie": {
+        "name": "李杰能力圈理论",
+        "elements": ["好生意", "好公司", "好价格"]
+      }
+    },
+    "news_classification": {
+      "long_term_value": ["基本面", "护城河", "竞争优势", "长期", "价值投资"],
+      "short_term_volatility": ["技术面", "消息面", "短期", "投机", "炒作"]
+    },
+    "policy_analysis": {
+      "positive_keywords": ["支持", "利好", "鼓励", "发展", "促进"],
+      "negative_keywords": ["限制", "监管", "处罚", "风险", "整顿"]
+    }
+  }
 }
