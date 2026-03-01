@@ -1,0 +1,65 @@
+{
+  "source": "优化版财经新闻",
+  "timestamp": "2026-03-01 20:22:06",
+  "news_list": [{
+  "title": "\u94f6\u884c\u4e1a\u7ee9\u7a33\u5065\u589e\u957f",
+  "link": "https://example.com/news/0",
+  "source": "模拟新闻源",
+  "publish_time": "2026-03-01 20:22:06",
+  "category": "finance",
+  "abstract": "\u94f6\u884c\u51c0\u606f\u5dee\u4f01\u7a33\uff0c\u8d44\u4ea7\u8d28\u91cf\u6539\u5584\uff0c\u5206\u7ea2\u7a33\u5b9a\u3002\u7b26\u5408\u4ef7\u503c\u6295\u8d44\u7684\u73b0\u91d1\u6d41\u548c\u5206\u7ea2\u8981\u6c42\u3002",
+  "investment_analysis": {
+  "investment_grade": "medium",
+  "time_horizon": "mixed",
+  "policy_orientation": "neutral",
+  "industry_rotation": "defensive_sector",
+  "opportunity_level": "medium",
+  "value_score": 63,
+  "analysis_framework": "基于《投资中最简单的事》和《股市进阶之道》的投资理念",
+  "qiu_guolu_elements": {
+    "valuation": "估值分析基于新闻内容中的价格信息",
+    "quality": "品质分析基于公司基本面和护城河描述",
+    "timing": "时机分析基于政策导向和市场情绪",
+    "position": "仓位建议基于风险收益比评估"
+  },
+  "li_jie_elements": {
+    "business_model": "商业模式分析基于护城河和竞争优势",
+    "good_company": "好公司分析基于管理层和治理结构",
+    "good_price": "好价格分析基于估值水平和安全边际"
+  },
+  "analysis_timestamp": "2026-03-01 20:22:06"
+}
+},{
+  "title": "\u4fdd\u9669\u4e1a\u6539\u9769\u6df1\u5316",
+  "link": "https://example.com/news/1",
+  "source": "模拟新闻源",
+  "publish_time": "2026-02-28 20:22:06",
+  "category": "finance",
+  "abstract": "\u4fdd\u9669\u4ea7\u54c1\u7ed3\u6784\u4f18\u5316\uff0c\u957f\u671f\u4fdd\u969c\u578b\u4e1a\u52a1\u5360\u6bd4\u63d0\u5347\u3002\u7b26\u5408\u674e\u6770\u5f3a\u8c03\u7684\u597d\u751f\u610f\u6807\u51c6\u3002",
+  "investment_analysis": {
+  "investment_grade": "low",
+  "time_horizon": "mixed",
+  "policy_orientation": "neutral",
+  "industry_rotation": "defensive_sector",
+  "opportunity_level": "low",
+  "value_score": 57,
+  "analysis_framework": "基于《投资中最简单的事》和《股市进阶之道》的投资理念",
+  "qiu_guolu_elements": {
+    "valuation": "估值分析基于新闻内容中的价格信息",
+    "quality": "品质分析基于公司基本面和护城河描述",
+    "timing": "时机分析基于政策导向和市场情绪",
+    "position": "仓位建议基于风险收益比评估"
+  },
+  "li_jie_elements": {
+    "business_model": "商业模式分析基于护城河和竞争优势",
+    "good_company": "好公司分析基于管理层和治理结构",
+    "good_price": "好价格分析基于估值水平和安全边际"
+  },
+  "analysis_timestamp": "2026-03-01 20:22:06"
+}
+}],
+  "total": 2,
+  "fetch_time": "2026-03-01 20:22:06",
+  "investment_framework": "邱国鹭四要素 + 李杰能力圈理论",
+  "version": "2.1.0"
+}
